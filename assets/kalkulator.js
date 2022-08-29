@@ -2,9 +2,10 @@ const calculator = {
     displayNumber: '0',
     operator: null,
     firstNumber: null,
-    isWaitForSecondNumber: false,
+    isWaitForSecondNumber: false, 
   };
-   
+    
+  
   function updateDisplay() {
     document.querySelector('#displayNumber').innerText = calculator.displayNumber;
   }
